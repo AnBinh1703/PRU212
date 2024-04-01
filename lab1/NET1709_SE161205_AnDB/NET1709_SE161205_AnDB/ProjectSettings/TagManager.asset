@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Apple
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Terrain
+  - Water
+  - UI
+  - Background
+  - camera
+  - Apple
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2697485507
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 631480647
+    locked: 0
+  - name: UI
+    uniqueID: 311986277
+    locked: 0
