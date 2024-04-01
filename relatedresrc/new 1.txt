@@ -1,0 +1,227 @@
+When we declare a variable, we need to provide a and a variable name|data type
+The most appropriate way to provide external consumer access to the state of an object is through|fields
+The most appropriate way to provide external consumer access to the behavior of an object is through|methods
+When we call a static function, we start with the name|class
+Entities in a Unity scene are called|Game Objects
+We use the class when processing input in Unity|Input
+When we say we clamp a value, we mean we|keep the value within a specific range of values
+When we process mouse button input using the input manager, we can use GetMouseButtonDown to respond to player clicks|false
+To make sure our movement is independent of frame rate when we process keyboard or gamepad input, we should|use Time.deltaTime in the Update method for the moving game object
+If we use the input manager, adding gamepad support to a game that already has keyboard support typically requires lots of code changes|false
+You have 4 bits you can use to give unique names (using binary!) to different inventory items in your game. How many unique names can you have|16
+You need to represent 31 unique values in binary. How many bits do you need|5
+Select the two things that a data type tells us below|How to interpret the bits for variables of that data type|Valid operations for variables of that data type
+Data in C# fall into two categories|Value Types and Reference Types.
+A variable of a value type contains|a value of the type
+A variable of a reference type contains|a reference to an instance of the type.
+The order that method executes in MonoBehaviour is|Awake() //script first load Start() //when script is enabled Update() //once per frame OnDestroy() //game objects being destroyed
+Two kinds of plugins you can use in Unity are|Managed plugins and Native plugins
+Which of the following access modifiers are used to specify the accessibility of a type|public, internal
+You would like to address all enemy objects in your game|Use tags
+Which is not a property of a Sprite class|size
+What kind of plugin are platform specific native code libraries|Native plugins
+Mark most of the fields with [SerializeField] when we Write the Code so we can populate them in the Inspector|[SerializeField]
+What is the name of the component used to connect animation clips with particular GameObject|Animator Controller
+An asset type that allows you to store game objects and create multiple instances later is called|Prefab
+Select the correct statement|The value of a string variable can be surrounded by double quotes
+Which is 2D graphic object used for characters, props, projectiles and other elements of 2D gameplay|Sprite
+In Unity, what does transform consist of|Position, rotation, and scale
+Which of the following statements about casting is false|The conversions from long to int, short, byte are implicit conversions
+How many maximum layers in Unity|31
+Choose the correct statement for creating a new Vector3 with given x, y, z components|public class Vector3Example : MonoBehaviour { Vector3 myVector; void Start() { myVector = new Vector3(0.0f, 1.0f, 0.0f); } }
+Which features include full 3D spatial sound, real-time mixing and mastering, hierarchies of mixers, snapshots, predefined effects|Unity's Audio
+Which is not exists in Unity|Game Collider
+Which method in GameObject in Unity, calls a method on every MonoBehaviour in the game object or any of its children|BroadcastMessage
+A CPU-Independent instructions set into which .NET Framework programs are compiled. It contains instructions for loading, storing, initializing and calling methods on objects is|MSIL (Microsoft Intermediate Language)
+To define input axes and game actions for your project you need (Using Edit → Project Settings → Input)|Input Manager
+Which operator is used to add together two values a and b|The + sign
+Scripts are components in Unity|Scripts are components. They affect the look, behavior, or interaction of game objects
+Which is not a type of light in Unity|Mix light
+How you can pause the game|Time.timeScale = 0;
+When you move the game object on the scene what will happen with the child game object|will move with parent
+Choose the correct information about the Rigidbody component|All of the others
+Choose the correct information about Game Object|An entity in your unity scene (camera, car, obstacles, environment)
+When declaring a variable, we need to provide a __________ and a variable name | A. System.String
+What kind of Update method should you use when you apply forces|FixedUpdate()
+What component GameObject need to have to be considered by the Unity physics engine|Rigidbody
+How do you assign a script to an object|Drag script onto game object in the inspector
+What can receive forces and torque to make your objects move in a realistic way|Rigidbody
+Which method of input class returns true during the frame the user releases the key identified by name|GetKeyUp
+How do you create a variable with the numeric value 5|int x = 5;
+Choose the correct information for Unity Timer class|Both are true
+What is a correct syntax to output 'Hello World' in C#|Console.WriteLine('Hello World');
+In Unity, which one contain only .NET code which means that they cannot access any features that are not supported by the .NET libraries|Managed Plugins
+Which allows you to build and customize your own animations with Unity|Animation Window
+What is the name of the component used to connect animation clips (animations) with a particular game object|Animator Controller
+What is a scene in Unity|A snapshot of a hierarchy with GameObjects, Prefabs, and their components and properties
+Which of the following statements is incorrect about virtual and abstract keywords|Abstract modifier cannot be used properties or indexers
+Which one allows you to mix various audio sources, apply effects to them, and perform mastering|Audio Mixer
+Game objects without Rigidbody component are considered|static colliders
+To define input axes and game actions for your project you need|Input Manager
+Which class control is all aspects of Unity's lights|Light
+How do you call a method in C#|MyMethod();
+What is the name of the component that enables a GameObject to react when it comes into contact with other GameObjects|Collider
+Which method executes when the script is enabled in MonoBehaviour|Start()
+To declare an array in C#, define the variable type with|[]
+To make your camera point at an object as it moves what method you need to use|LookAt()
+What is a correct syntax to output "Hello World" in C#|Console.WriteLine("Hello World");
+How do you insert COMMENTS in C# code|//This is a comment
+Which data type in C# is used to create a variable that should store text|String
+How do you create a variable with the floating number 2.8|double x = 2.8D;
+Which property can be used to find the length of a string|Length
+Select the correct statement  
+B. The value of a string variable can be surrounded by double quotes.
+Which operator can be used to compare two values|==
+Array indexes start with|0
+How do you create a method in C#|MyMethod()
+Which keyword is used to create a class in C#|class
+What is the correct way to create an object called myObj of MyClass|MyClass myObj = new MyClass();
+Which of the following types are a handy programming construct that allows you to group name/value pairs|Enumerations
+Select a incorrect statement about static constructors|A given class (or structure) may define one or more static constructors.
+How many Bytes are stored by 'Long' Data type in C# .net|8
+Which of the following statements are the distinctions between output and reference parameters|1 and 2
+Which of the following statements is incorrect about virtual and abstract keywords|Abstract modifier cannot be used properties or indexers.
+Which of the following statements about casting is false|The conversions from long to int, short, byte are implicit conversions.
+Select correct statements about Value Type|All value types are derived implicitly from the System.ValueType.
+Select correct statements about Reference Type|By default, variables of reference type are passed by reference.
+Assume that BaseClass is a class; IFace1 and IFace2 are interfaces. Which of the following declarations is (are) invalid|Line 4 and 1
+Which of the following access modifiers are used to specify the accessibility of a type|1
+Which property of Exception class specifies textual information that indicates the reason for the error and provides possible resolutions|Message
+Which of the following can be defined as generic|All of the others
+An interface cannot contain signatures of the following members|None of the others
+Which is a CPU-Independent instructions set into which .NET Framework programs are compiled. It contains instructions for loading, storing, initializing and calling methods on objects|MSIL (Microsoft Intermediate Language)
+What is the default modifier for class of package in C#|internal
+What is the default modifier for the class member|private
+Select correct statement about virtual methods|A virtual method must contain the method body otherwise the compiler shall throw an error.
+Which of the following types is a reference type|System.String
+Where are reference types variables stored|Heap segment
+Which of the following is not a Value type variable|System.Object
+What is the String in C# meant for|Class
+What does the term 'immutable' mean in terms of string objects|We cannot modify characters contained in the string
+Which is the base class from which every Unity script derives|MonoBehaviour
+Which method in GameObject in Unity calls a method on every MonoBehaviour in this game object or any of its children|BroadcastMessage
+Select the method in GameObject in Unity which adds a component class to the game object|AddComponent
+Which method of Input class returns the value of the virtual axis identified by axisName|GetAxis
+Which is not a method of the Input class in Unity|GetScreen
+Which method of the Input class returns true while the user holds down the key identified by name|GetKey
+Which method of the Input class returns true during the frame the user starts pressing down the key identified by name|GetKeyDown
+Which method of the Input class returns true during the frame the user releases the key identified by name|GetKeyUp
+Which is the 2D graphic object used for characters, props, projectiles, and other elements of 2D gameplay|Sprite
+Which is not a property of the Sprite class|Size
+Which class is used for Sprite render|SpriteRenderer
+Which class is used for control of an object's position through physics simulation|Rigidbody
+Which is not a property of the Rigidbody class|Size
+Which method of Rigidbody is used for adding a force|AddForce
+Which method of Rigidbody is used for checking whether a rigidbody is sleeping|IsSleeping
+Which class controls all aspects of Unity's lights|Light
+When you create a new scene, it will contain|It depends
+Select the correct statement|All of the others
+What is the name of the component that every 3D game object must have|Transform
+Which aspect of game objects components govern|All of the others
+When you move the game object on the scene, what will happen with the child game object|will move with the parent
+How can you pause the game|Time.timeScale = 0;
+To make your camera point at an object as it moves, what method do you need to use|LookAt()
+Which method executes first in MonoBehaviour|Awake()
+Which method executes when a script is enabled in MonoBehaviour|Start()
+Game objects without a Rigidbody component are considered|static colliders
+To check if your bullet hits the target, you use|Raycasting
+In Unity, to make games, you can use|All of the others
+In Unity, which one contains only .NET code, which means that they cannot access any features that are not supported by the .NET libraries|Managed Plugins
+What are two kinds of plugins you can use in Unity|Managed plugins and Native plugins.
+What kind of plugin are platform-specific native code libraries|Native plugins
+What are required for the game to play|Layers
+What is the name of Unity's animation system|Mecanim
+Creating the three-dimensional shape game object is called|Modeling
+In the Animator Controller, one state must be default. It is represented in what color|Orange
+To make a transition not interruptible by other transitions make it|atomic
+A simplified humanoid bone structure that Mecanim understands how to animate is called|Avatar
+To define input axes and game actions for your project, you need|Input Manager
+To make rotational movement to Rigidbody you would use|AddTorque()
+What is the name of the component that enables a game object to react when it comes into contact with other game objects|Collider
+What is a bad choice for texture dimension|6
+Cube, Sphere, Capsule, Cylinder, Plane, and Quad are called|Primitive game object
+Which of the following code will display a valid Button|void OnGUI () { GUI.Button(new Rect(20,40,80,20), "myButton"); }
+ 
+Which attributes are used in C# and UnityScript to prevent the property being shown in the Inspector|@HideInInspector in UnityScript and [HideInInspector] in C#
+In Unity, How you can change setting up the outpost model|All of the above
+How can a screenshot be captured|Application.CaptureScreenshot(file);
+Emission parameter has a Global Illumination setting, allowing you to specify how the apparent light emitted from this material will affect the contextual lighting of other nearby objects. There are following options|ALL of the above
+Which of the following Extensible Plug-in Architecture used to increase Unity3D tools capacity|UnityVS
+Which of the following Extensible Plug-in Architecture used to increase Unity3D tools capacity|NGUI
+Which of the following Extensible Plug-in Architecture used to increase Unity3D tools capacity|2DToolKit
+A C# class can only inherit from class|One
+How can enumeration of colors be defined|enum Colours {Red, Blue, Green};
+Using the following code you will get the distances to the walls in each of the four directions|var xForward : float = DistToWall(obj.transform .y, Vector3.forward , Color.blue); var xRight : float = DistToWall(obj.transform .y, Vector3.right , Color.yellow); var xBackward : float = DistToWall(obj.transform .y,-Vector3.forward , Color.red); var xLeft : float = DistToWall(obj.transform .y,-Vector3.right , Color.green);
+Using the following code you will get the distances to the walls in each of the four directions|var xForward : float = DistToWall(obj.transform .y, Vector3.forward , Color.blue); var xRight : float = DistToWall(obj.transform .y, Vector3.right , Color.yellow); var xB
+What is the initial content of a C# script file|public class Main : MonoBehaviour { void Start () { } void Update () { } }
+Using the following you are able to apply the setting position of the child transform, relative to parent in Unity|hudCamera.transform.parent = hudSelectedObject.transform; hudCamera.transform.position = new Vector3(0, 0, -50);
+Which statement is True of Saved by Batching|This indicates the number of batching operations Unity managed to perform on your objects to reduce the number of draw calls
+Which of the following Unity3D support languages are NOT for writing shaders? (choose all that apply)|ShaderKit
+A The component requires at least Shader Model 4 graphics hardware and support, including support for  Textures with 32-bit floating-point format and linear filtering? (choose the 2 that apply)|API
+The component requires at least Shader Model 4 graphics hardware and support, including support for  Textures with 32-bit floating-point format and linear filtering? (choose the 2 that apply)|3D
+A Which of the following are Pipeline of Unity Rendering|Vertex Lit
+Which of the following are Pipeline of Unity Rendering|Deferred Lighting
+How do I list a UnityEvent requirement in a C# interface|All of the above
+Which event function will be invoked when an application is closed? (choose all that apply)|OnDisable()
+In a scene, you can only have one|AudioListener
+How can you update using the following code function to play a sound once|public var acelerateSound: AudioSource; // its attached to referenced function Update() { if(Input.GetAxisRaw("Vertical") > 0 ||Input.GetKey (KeyCode.Joystick1Button2)) { accelerate = true; acelerateSound.Play(); } else accelerate = false; }
+Which of these lets you create a user interface|void OnGUI(){ GUILayout.Label("Header"); GUILayout.Button("Button"); }
+Assets placed in which of these project folders will be copied as is to a folder on the target device|Streaming Assets
+How do you create a material asset (MyMaterial.mat) in Unity using Specular Shader through scripting|None of the Above
+Which of the following are Axe's properties of Inputs|Snap
+What are the light mapping modes IS NOT available|Directional Lightmaps
+The Level of Details (LOD) optimization technique allows|to reduce the number of triangles rendered for an object as its distance from the camera increases
+Which of these is NOT affected by position|Directional Lights
+A new Sprite can be created using|Sprite s = Sprite.Create(textureRef, new Rect(0,0,1,1), new Vector2(0,0));
+To display the properties of an object of a class in an inspector, the class must be marked with the property;|[RequireComponent]
+Which is true about Input Manager |All of the above
+How can we disable physics in Unity|That's as disabled as it gets. Go to date setting and set the fixed timestep to 10 which is the maximum.
+How can you create an animation event at a specific keyframe at runtime|...
+Which of these is a greedy heuristic searching algorithm|Best first search
+Count all possible paths in 3x3 matrix; from topleft corner to bottom right corner|6
+How can you make a Navmesh agent move to a location|GetComponent().SetDestination(point);
+A Navmesh agent can be which of the following shapes|Capsule
+Which of these audio file formats is not supported by Unity|.s3m
+How do you play an audio clip at a specific frame of an animation in Unity 3D|All of the above
+What does the following code do|Moves the object this script is attached to by 10 units per second in the local positive Z axis direction
+In order to detect a collision between two objects, A and B, which of the following criteria need to be satisfied|A and B both have non kinematic rigidbodies and colliders attached to them
+A ray contains the following|Direction and origin
+The value of Time.deltaTime contains|The duration of the last frame
+A coroutine runs on a|same thread
+Which of the following is attached to every GameObject|Transform component
+Which of the following statement is TRUE about 2D and 3D Objects|2D Object is not pickable (in scene)
+How do you record a transaction event by a user through Unity Analytics|Analytics.Transaction(string productId, decimal price, string receipt, string signature);
+Which namespace must be included to use the DLLImport attribute|System.Runtime.InteropServices
+What are the types of Raycasters|Physics Raycaster
+A 2048x2048 pixel resolution image with format uncompressed RGBA 32 bits (without mipmaps) will take up how much memory when loaded|32 MB
+Which of the following is Core Optimization of GPU Limitations|Memory Bandwidth
+What is the output of the following code|Null Reference Exception
+Virtual Functions are functions|Functions that do not have any implementations in base classes or derived classes
+Tree Editor lets you create and edit|None of the above
+An animation can be played using|Animator.SetTrigger();
+The Core Optimization of
+Apologies for the confusion. Here's the corrected format with questions and answers clearly labeled:
+Which of the following tangent types can be used to ensure smoothness|Linear  
+Which of the following tangent types can be used to ensure smoothness|Free Smooth
+To play an animation with the Animation component, the imported animation must be of the type|Legacy  
+Which shader would you use to apply transformation operations|Vertex shader  
+Which of the following will call MyUpdateMethod() every 1 second|`void Start(){ InvokeRepeating("MyUpdateMethod",1,1); gameObject.SetActive(false); }`  
+An animation controller parameter that has two possible values|Both a and b  
+Shadow cascading is used to reduce|Occlusion Culling  
+The process by which objects that are hidden behind other objects are not rendered is known as|Occulusion Culing  
+A shader that runs for every fragment is called|Pixel Shader  
+An object's mesh can be accessed using|MeshFilter component  
+What are the following Light's properties in Unity|Range  
+What is the meaning of GUI|Graphical User Interface  
+Which of the following are NOT properties of Lights|Deferred  
+The distance at which the real time shadows blend into the lightmapped shadows in Unity is determined by|Shadow Distance property  
+Which option describes the Destroy (Game Object) method|Destroys a game object at the end of the current frame  
+9 sliced images are supported by which colliders? (choose all that apply)|BoxCollider2D, 
+9 sliced images are supported by which colliders? (choose all that apply)|PolygonCollider2D  
+What is the correct program for Loop animation of A, B and C (A-B-C-A)|Provided code snippet  
+How can you call methods in C# scripts from unityscript code|Place both scripts into the Plugins or Standard Assets folders of the project  
+What is the output of the following code assuming that myGameObject does not exist in the scene|null  
+In Unity 3D, the following code will allow you to hide an object.|object.SetActive(false);  
+Which of the following are ways to programmatically access an active GameObject|ALL  
+Which method would you use to programmatically access a GameObject with a unique name|GameObject.Find()  
+Which method would you use to programmatically access the GameObject the script is attached to|The variable gameObject  
